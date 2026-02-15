@@ -32,8 +32,8 @@
     "chroma-js": "^2.4.2",
     "chrono-node": "^2.1.11",
     "clean-webpack-plugin": "^3.0.0",
-    "codesandboxer": "^0.1.1",
-    "fork-ts-checker-webpack-plugin": "^6.1.0",
+    "codesandboxer": "^0.5.0",
+    "fork-ts-checker-webpack-plugin": "^7.0.0",
     "html-webpack-plugin": "^3.2.0",
     "moment": "^2.29.4",
     "raf-schd": "^4.0.3",
@@ -47,13 +47,13 @@
     "react-select": "^5.7.0",
     "react-sortable-hoc": "^1.9.1",
     "react-syntax-highlighter": "^7.0.1",
-    "style-loader": "^0.23.1",
+    "style-loader": "^3.0.0",
     "styled-components": "^4.4.1",
     "ts-node": "^9.1.1",
     "unfetch": "^4.2.0",
-    "webpack": "^4.30.0",
+    "webpack": "^5.98.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^4.6.0"
   },
   "scripts": {
     "site-prebuild": "node ./generate-magical-types/generate && node ./generate-magical-types/serialize",
